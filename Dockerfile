@@ -8,7 +8,7 @@
 # 
 #     https://github.com/ReproNim/neurodocker
 
-FROM debian:3d57adf8e77d
+FROM debian:3d57adf8e77db64ca14f8de90b1dffdfc51b511de862ca354102fc4cda99dc74
 
 USER root
 
