@@ -8,8 +8,7 @@
 # 
 #     https://github.com/ReproNim/neurodocker
 
-#FROM debian:stretch
-FROM jupyter/scipy-notebook:cf6258237ff9
+FROM debian:3d57adf8e77d
 
 USER root
 
