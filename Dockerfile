@@ -104,7 +104,8 @@ RUN echo '{ \
     \n}' > /neurodocker/neurodocker_specs.json
 
 #binderhub specific https://mybinder.readthedocs.io/en/latest/tutorials/dockerfile.html
-RUN pip install --no-cache-dir notebook==5.*
+RUN apt-get install python3-pip
+RUN pip3 install --no-cache-dir notebook==5.7.10
 
 ARG NB_USER=jovyan
 ARG NB_UID=1000
