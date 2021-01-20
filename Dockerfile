@@ -104,7 +104,7 @@ RUN echo '{ \
     \n}' > /neurodocker/neurodocker_specs.json
 
 #binderhub specific https://mybinder.readthedocs.io/en/latest/tutorials/dockerfile.html
-RUN apt-get install python3-pip
+RUN apt-get update -qq && apt-get install -y -q python3-pip
 RUN pip3 install --no-cache-dir notebook==5.7.10
 
 ARG NB_USER=jovyan
@@ -123,3 +123,6 @@ COPY . ${HOME}
 USER root
 RUN chown -R ${NB_UID} ${HOME}
 USER ${NB_USER}
+
+# inherit previous entrypoints
+ENTRYPOINT []
