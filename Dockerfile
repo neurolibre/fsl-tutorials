@@ -8,7 +8,7 @@
 # 
 #     https://github.com/ReproNim/neurodocker
 
-FROM debian:stretch
+FROM ubuntu:18.04
 
 USER root
 
@@ -91,7 +91,7 @@ RUN echo '{ \
     \n  "instructions": [ \
     \n    [ \
     \n      "base", \
-    \n      "debian:stretch" \
+    \n      "ubuntu:18.04" \
     \n    ], \
     \n    [ \
     \n      "fsl", \
