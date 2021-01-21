@@ -1,4 +1,4 @@
-[![binder](https://mybinder.org/badge_logo.svg)](https://binder-mcgill.conp.cloud/v2/gh/neurolibre/fsl-tutorials/master?urlpath=%2Fterminals%2F1) or 
+[![binder](https://mybinder.org/badge_logo.svg)](https://binder-mcgill.conp.cloud/v2/gh/neurolibre/fsl-tutorials/master?filepath=notebooks%2Fnilearn-example.ipynb) or 
 [![Terminal](https://icon-icons.com/icons2/1381/PNG/32/utilitiesxterminal_93700.png)](https://binder-mcgill.conp.cloud/v2/gh/neurolibre/fsl-tutorials/master?urlpath=%2Fterminals%2F1)
 
 # fsl-tutorials
