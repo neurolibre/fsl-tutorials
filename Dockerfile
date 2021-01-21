@@ -126,7 +126,7 @@ RUN adduser --disabled-password \
 COPY . ${HOME}
 USER root
 RUN chown -R ${NB_UID} ${HOME}
-WORKDIR {$HOME}
+WORKDIR ${HOME}
 USER ${NB_USER}
 
 # disinherit previous entrypoints
