@@ -109,7 +109,7 @@ RUN pip3 install --no-cache-dir \
 	notebook==5.7.10 \
 	nilearn==0.7.0 \
 	matplotlib==3.3.0 \
-	scipy==1.6.0 \
+	scipy==1.5.0 \
 	scikit-learn==0.24.0
 
 ARG NB_USER=jovyan
