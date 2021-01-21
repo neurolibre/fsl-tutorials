@@ -106,6 +106,7 @@ RUN echo '{ \
 #binderhub specific https://mybinder.readthedocs.io/en/latest/tutorials/dockerfile.html
 RUN apt-get update -qq && apt-get install -y -q python3-pip
 RUN pip3 install --no-cache-dir \
+	Cython==0.29.20 \
 	notebook==5.7.10 \
 	nilearn==0.7.0 \
 	matplotlib==3.3.0
